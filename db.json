@@ -34,6 +34,14 @@
             "Drama",
             "Thriller"
           ]
+        },
+        {
+          "id": "0079ef87-0f29-404f-8223-3546e7a4e1d7",
+          "title": "Conjuring",
+          "time": 120,
+          "genres": [
+            "Horror"
+          ]
         }
       ]
     },
@@ -119,6 +127,44 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sarah",
+      "bio": "Buffalo",
+      "movies": [],
+      "id": "3I7GkWwgY_0"
+    },
+    {
+      "name": "Diane Broncos",
+      "bio": "Director of horror movies!",
+      "movies": [
+        {
+          "id": "153167c7-7d45-45a2-af25-95d428474b32",
+          "title": "Halloween part 7",
+          "time": 110,
+          "genres": [
+            "Horror"
+          ]
+        },
+        {
+          "id": "03815de6-8204-49ba-a75b-9266db42d19d",
+          "title": "Monster House",
+          "time": 125,
+          "genres": [
+            "Horror"
+          ]
+        },
+        {
+          "id": "de33d220-1761-4e5d-8441-174164788e51",
+          "title": "Haunted Hill",
+          "time": 120,
+          "genres": [
+            "Horror"
+          ]
+        }
+      ],
+      "id": "xFC1SAPkZ4U"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

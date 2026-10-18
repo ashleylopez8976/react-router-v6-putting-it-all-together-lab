@@ -131,3 +131,61 @@ message like "Oops! Looks like something went wrong."
 ## Resources
 
 - [React Router](https://reactrouter.com/en/main)
+
+## Completed Application
+
+Implemented a Movie Directory application using React Router v6.
+
+### Features
+
+- Browse directors and view their biographies and movies.
+- View movie titles, durations, and genres.
+- Add directors and automatically navigate to their detail pages.
+- Add movies and automatically navigate to their detail pages.
+- Save changes using JSON Server.
+- Navigate between Home, Directors, and About without full-page reloads.
+
+### Routing and State
+
+- Used BrowserRouter, Routes, and Route to define application routes.
+- Implemented nested director and movie routes with Outlet.
+- Shared state between nested pages using useOutletContext.
+- Read director and movie IDs using useParams.
+- Added navigation using Link and NavLink.
+- Redirected users after successful submissions using useNavigate.
+
+### Running the Application
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start JSON Server in one terminal:
+
+```bash
+npm run server
+```
+
+Start Vite in another terminal:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed by Vite.
+
+### Testing
+
+Run the test suite:
+
+```bash
+npm run test
+```
+
+All provided tests passed.
+
+### Screenshot
+
+![Director and movie details](screenshots/movie-directory.png)
